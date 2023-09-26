@@ -1,0 +1,603 @@
+
+.bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290680/Rectangle_1_pdmoym.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+
+.form-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40vw;
+   margin-left: 120px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 390px;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.28);
+    margin-top: 25px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.form-heading{
+    text-align: center;
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-top: 0;
+    color: #000000ac;
+}
+
+.form-image{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.393);
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif ;
+    font-size: 13px;
+}
+
+.name{
+    background-color: #00000021;
+    width: 270px;
+    height: 40px;
+    border: solid 0;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.names{
+    position: relative;
+    top: 3px;
+}
+.err1{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    top: 33px;
+    z-index: 1;
+    font-size: 12px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: rgba(255, 0, 0, 0.725);
+}
+
+.phones{
+    position: relative;
+}
+.err2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+   
+    z-index: 1;
+    font-size: 12px;
+    top: 33px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: rgba(255, 0, 0, 0.725);
+}
+
+.locations{
+    position: relative ;
+}
+.err3{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    top: 33px;
+    z-index: 1;
+    font-size: 12px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: rgba(255, 0, 0, 0.725);
+}
+.names:focus{
+    border-bottom: solid 2px #6facaea2 ;
+}
+
+.phones:focus{
+    border-bottom: solid 2px #6facaea2 ;
+}
+
+.locations:focus{
+    border-bottom: solid 2px #6facaea2 ;
+}
+
+
+.check{
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    margin-inline-end: 8px;
+}
+
+.check-lab{
+    color: rgba(0, 0, 0, 0.823);
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif ;
+    font-size: 13px;
+}
+
+.btn-submit{
+    width: 160px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #138ED1;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif ;
+    font-size: 14px;
+    border: solid 0;
+    border-radius: 4px;
+    outline: 0px;
+}
+
+.btn-price{
+    width: 400px;
+    height: 50px;
+    color: #ffffffb1;
+    border: solid 0;
+    background-color: #00486C;
+    border-radius: 40px;
+    border-right:solid 2px  #f3f5f6;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 16px;
+    z-index: 1;
+}
+.btn-off{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-price2{
+    width: 160px;
+    margin-left: -40px;
+    padding-left: 50px;
+    height: 50px;
+    border: solid 0;
+    background-color: #00A6FF;
+    color: #ffffff;
+    border-radius: 40px;
+    border-right:solid 2px  #f3f5f6;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.spass{
+    font-weight: 600;
+    color: #fff;
+}
+
+.spa1{
+    font-weight: 600;
+    color: #fff;
+    text-decoration: line-through #fff;
+}
+
+.spa2{
+    font-weight: 600;
+    color: #fff;
+}
+
+/* another section */
+
+
+.test-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 50vw;
+    height: 100%;
+    
+}
+
+.image-container{
+    width: 70%;
+    height: 430px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290686/doc-check_image_mywggr.png");
+    background-size: fill;
+    background-position: 100px 0;
+    background-repeat: no-repeat;
+}
+
+.img-text-container{
+    width: 140px;
+    height: 30px;
+    border-radius: 13px;
+    background: rgba(110, 110, 110, 0.10);
+    backdrop-filter: blur(8.5px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 12px;
+    color: #000000d8;
+}
+
+.img-text-container1{
+    margin-top: -15px;
+    margin-left: 80px;
+}
+.img-text-container2{
+    margin-top: -165px;
+}
+.img-text-container3{
+    margin-top: -160px;
+    margin-left: 80px;
+}
+
+.para-small{
+    padding-left: 8px;
+    font-size: 10px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+}
+
+.heading-img{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 30px;
+    font-weight: 700;
+    color:#00000095 ;
+    margin-bottom: 0px;
+    padding-top: 0;
+}
+
+.span-img{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 38px;
+    font-weight: 500;
+    color:#138ED1 ;
+    font-stretch: expanded;
+}
+
+.line-img{
+    width: 226px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.rti{
+    display: none;
+}
+
+.btn-off-on{
+    display: none;
+}
+
+
+/* From here we writing code for mobile view */
+
+
+
+
+@media (max-width:572px){
+
+    .rti{
+        display: flex;
+    }
+    
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290680/Rectangle_1_pdmoym.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    margin-left: 80px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    width: 460px;
+    height: 440px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    order: 3;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.28);
+    margin-top: 25px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.form-heading{
+    text-align: center;
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-top: 0;
+    color: #000000ac;
+}
+
+.form-image{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.393);
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif ;
+    font-size: 13px;
+}
+
+.name{
+    background-color: #00000021;
+    width: 300px;
+    height: 60px;
+    border: solid 0;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.names{
+    position: relative;
+    top: 6px;
+}
+.err1{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 50px;
+    top: 33px;
+    z-index: 1;
+    font-size: 19px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: rgba(255, 0, 0, 0.725);
+}
+
+.phones{
+    position: relative;
+}
+.err2{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 50px;
+   
+    z-index: 1;
+    font-size: 19px;
+    top: 33px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: rgba(255, 0, 0, 0.725);
+}
+
+.locations{
+    position: relative ;
+}
+.err3{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 50px;
+    top: 33px;
+    z-index: 1;
+    font-size: 19px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: rgba(255, 0, 0, 0.725);
+}
+.names:focus{
+    border-bottom: solid 2px #6facaea2 ;
+}
+
+.phones:focus{
+    border-bottom: solid 2px #6facaea2 ;
+}
+
+.locations:focus{
+    border-bottom: solid 2px #6facaea2 ;
+}
+
+
+.check{
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    margin-inline-end: 8px;
+}
+
+.check-lab{
+    color: rgba(0, 0, 0, 0.823);
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif ;
+    font-size: 13px;
+}
+
+.btn-submit{
+    width: 320px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #138ED1;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-family: "Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    border: solid 0;
+    border-radius: 8px;
+    outline: 0px;
+}
+
+.btn-price{
+    width: 400px;
+    height: 50px;
+    color: #ffffffb1;
+    border: solid 0;
+    background-color: #00486C;
+    border-radius: 40px;
+    border-right:solid 2px  #f3f5f6;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 16px;
+}
+.btn-off-on{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    width: 100%;
+}
+.btn-off{
+    display: none;
+}
+.btn-price2{
+    width: 290px;
+    height: 50px;
+    border: solid 0;
+    background-color: #00A6FF;
+    color: #ffffff;
+    border-radius: 40px;
+    border-right:solid 2px  #f3f5f6;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.spass{
+    font-weight: 600;
+    color: #fff;
+}
+
+.spa1{
+    font-weight: 600;
+    color: #fff;
+    text-decoration: line-through #fff;
+}
+
+.spa2{
+    font-weight: 600;
+    color: #fff;
+}
+
+/* another section */
+
+
+.test-image-container{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 50vw;
+    height: 100%;
+    
+}
+
+.image-container{
+    width: 70%;
+    height: 430px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290686/doc-check_image_mywggr.png");
+    background-size: fill;
+    background-position: 100px 0;
+    background-repeat: no-repeat;
+}
+
+.img-text-container{
+    width: 140px;
+    height: 30px;
+    border-radius: 13px;
+    background: rgba(110, 110, 110, 0.10);
+    backdrop-filter: blur(8.5px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 12px;
+    color: #000000d8;
+}
+
+.img-text-container1{
+    margin-top: -15px;
+    margin-left: 80px;
+}
+.img-text-container2{
+    margin-top: -165px;
+}
+.img-text-container3{
+    margin-top: -160px;
+    margin-left: 80px;
+}
+
+.para-small{
+    padding-left: 8px;
+    font-size: 10px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+}
+
+.heading-img{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 38px;
+    font-weight: 700;
+    color:#00000095 ;
+    margin-bottom: 0px;
+    padding-top: 0;
+}
+
+.span-img{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 38px;
+    font-weight: 600;
+    color:#138ED1 ;
+    font-stretch: expanded;
+}
+
+.line-img{
+    width: 226px;
+    margin-top: 0;
+    padding-top: 0;
+}
+}

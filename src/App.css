@@ -1,0 +1,102 @@
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.sub-logo-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+}
+
+.l-para{
+  padding-left: 8px;
+    font-size: 16px;
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    color: #000000d8;
+}
+
+.ctrs2{
+  display: none;
+ }
+  .ctrs1{
+    display: flex;
+  }
+@media (max-width:572px){
+
+ .ctrs2{
+  display: flex;
+ }
+  .ctrs1{
+    display: none;
+  }
+  .app-container{
+    width: 180vw;
+ }
+  .logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100vw;
+  }
+  
+  .sub-logo-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .limg{
+    width: 80px;
+    height: 80px;
+  }
+  
+  .l-para{
+    padding-left: 8px;
+      font-size: 23px;
+      font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+      color: #000000d8;
+  }
+
+  .tabs-gb-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 200vh;
+    width: 100%;
+    
+    background: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290680/NotInLine_xkgeih.svg") left bottom no-repeat,
+                url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290604/NotInLine_1_uqqqob.svg") left bottom no-repeat,
+                url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290680/NotInLine_xkgeih.svg") left bottom no-repeat,
+                url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695322779/Rectangle_22_1_atvmza.png") bottom left no-repeat,
+                url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695322779/Rectangle_82_nhedwl.png") bottom left no-repeat;
+    background-size: 70vw 90vh,70vw 90vh,70vw 120vh,100vw 400vh,100% 100vh;
+    background-position:100px 95vh,100px 75vh,100px 38vh, 0 40vh, 0 110vh;
+  }
+}
+.tabs-gb-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 150vh;
+  background: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290680/NotInLine_xkgeih.svg") left bottom no-repeat,
+              url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290604/NotInLine_1_uqqqob.svg") left bottom no-repeat,
+              url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290680/NotInLine_xkgeih.svg") left bottom no-repeat,
+              url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695322779/Rectangle_22_1_atvmza.png") bottom left no-repeat,
+              url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1695322779/Rectangle_82_nhedwl.png") bottom left no-repeat;
+  background-size: 70vw 90vh,70vw 90vh,70vw 120vh,100% 150vh,100% 100vh;
+  background-position:100px 95vh,100px 75vh,100px 38vh, 0 25vh, 0 110vh;
+}

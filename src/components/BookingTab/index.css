@@ -1,0 +1,296 @@
+
+.booking-cords-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underlineimage{
+    width: 170px;
+    margin-right: -70px;
+
+}
+
+.top-head{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 34px;
+    font-weight: 700;
+    color:#00000095 ;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.sp{
+    color:#138ED1;
+}
+
+.para{
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 18px;
+    font-weight: 400;
+    color:#00000077 ;
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.booking-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.booking-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 210px;
+    height: 210px;
+    box-shadow: 1px 1px 3px 4px rgba(73, 72, 72, 0.059);
+    padding: 13px;
+    margin-right: 40px;
+}
+
+.h3-heading{
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 19px;
+    font-weight: 600;
+    color:#000000e9 ;
+    margin: 15px 0px 13px 0px;
+    padding-bottom: 5px;
+    letter-spacing: 0.05em;
+}
+
+.para-rate{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    color:#000000a2 ;
+    margin: 0px 0px 13px 0px;
+    padding: 0px;
+}
+
+.para-spa{
+    font-weight: 500;
+    color:#000000cb ;
+    margin: 0px 0px 11px 0px;
+    padding: 0px;
+    font-size: 14;
+}
+
+.spa{
+    text-decoration: line-through;
+    margin: 0px 0px 13px 0px;
+    color:#00000075 ;
+    padding: 0px;
+}
+
+.card-btns{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    color:#fff ;
+    width: 170px;
+    height: 26px;
+    background-color: #008DD9;
+    border: solid 0;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.star-img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px;
+    padding: 0px;
+}
+
+.round-arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 2px 3px rgba(73, 72, 72, 0.059);
+    padding: 13px;
+    border-radius: 50%;
+    margin-right: 40px;
+    right: 17vw;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.see{
+    display: none;
+}
+
+
+.seel{
+    display: none;
+}
+
+
+@media (max-width:572px){
+    
+.booking-cords-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.underlineimages{
+    width: 230px;
+    margin-right: -70px;
+    margin-top: 20px;
+    
+
+}
+.seel{
+    display: block;
+    align-self: flex-end;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: right;
+    color: #008DD9;
+    margin-right: 120px;
+}
+.see{
+    display: block;
+    align-self: flex-end;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: right;
+    color: #008DD9;
+}
+
+.top-heads{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 50px;
+    font-weight: 700;
+    color:#00000095 ;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.sp{
+    color:#138ED1;
+}
+
+.paragra{
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 32px;
+    font-weight: 400;
+    color:#00000077 ;
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.booking-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.booking-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 380px;
+    height: 380px;
+    box-shadow: 1px 1px 3px 4px rgba(73, 72, 72, 0.2);
+    padding: 28px;
+    margin-bottom: 30px;
+}
+
+.h3-heading{
+    font-family:"Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 32px;
+    font-weight: 600;
+    color:#000000e9 ;
+    margin: 19px 0px 18px 0px;
+    padding-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+
+.para-rate{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 26px;
+    font-weight: 400;
+    color:#000000a2 ;
+    margin: 0px 0px 17px 0px;
+    padding: 0px;
+}
+
+.para-spa{
+    font-weight: 500;
+    color:#000000cb ;
+    margin: 0px 0px 11px 0px;
+    padding: 0px;
+    font-size: 26px;
+}
+
+.spa{
+    text-decoration: line-through;
+    margin: 0px 0px 13px 0px;
+    color:#00000075 ;
+    padding: 0px;
+}
+
+.card-btns{
+    font-family:"Montserrat","Inter",Arial, Helvetica, sans-serif,Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 25px;
+    font-weight: 400;
+    color:#fff ;
+    width: 300px;
+    height: 56px;
+    background-color: #008DD9;
+    border: solid 0;
+    border-radius: 8px;
+    margin-top: 30px;
+    align-self: flex-start;
+    
+}
+
+.star-img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -3px;
+    padding: 0px;
+}
+
+.round-arrow{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 2px 3px rgba(73, 72, 72, 0.059);
+    padding: 13px;
+    border-radius: 50%;
+    margin-right: 40px;
+    right: 17vw;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+}
